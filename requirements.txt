@@ -1,0 +1,9 @@
+datasets
+numpy
+pandas
+psutil
+python-dotenv
+requests
+scikit-learn
+torch
+transformers

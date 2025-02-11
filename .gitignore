@@ -1,2 +1,7 @@
 .ipynb_checkpoints/
 ex3_answers*
+.env
+custom-sentiment-model/
+data/
+results/
+*.zip
