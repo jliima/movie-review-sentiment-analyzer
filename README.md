@@ -1,8 +1,12 @@
-# Movie Review Sentiment Analysis LLM System
+# movie-review-sentiment-analyzer
 
-This repository contains code for a sentiment analysis system using a fine-tuned model and Llama 3 model via GroqCloud API. The project includes a Jupyter Notebook for dataset preparation and model fine-tuning, a FastAPI backend for serving predictions, and a React UI for user interaction.
+This repository contains code for a movie review sentiment analyzer LLM, that uses a fine-tuned custom model and Llama 3 model via GroqCloud API. The project includes a Jupyter Notebook for dataset preparation and model fine-tuning, a FastAPI backend for serving predictions, and a React UI for user interaction.
 
 The program is made as an answer for a university course called COMP.CS.530 Fine-tuning Large Language Models (LLM). See Technical Assignment_Week 3.pdf for original assignment description.
+
+Hugging face model created and used can be found here: https://huggingface.co/hieroja/custom-sentiment-model
+
+Video demo: https://www.youtube.com/watch?v=Q_YuPJ5Y2OU
 
 ## Pre Requirements
 
@@ -63,7 +67,7 @@ To run the notebook, with the python venv activated, run:
 
 3. Start the React app: `npm start`
 
-The UI will be available at [http://localhost:3000](http://localhost:3000).
+The UI will be available at http://localhost:3000
 
 ## API Endpoint
 
